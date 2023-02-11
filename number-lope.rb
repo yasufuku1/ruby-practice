@@ -1,6 +1,8 @@
-count = gets.to_i #　標準入力から整数を1個受け取る
+puts "繰り返し回数を入力してください"
+count = gets.to_i #　標準入力から整数を1個受け取る(処理の繰り返し回数となる)
 
-count.times do 
+count.times do
+    puts "数字を入力してください" 
     number = gets.to_i # 標準入力から整数を1個受け取る
     puts number
     if number == 0 # もし0であれば
