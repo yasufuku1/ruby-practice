@@ -9,7 +9,7 @@ puts "何番目の数字を求めますか？"
 t = gets.to_i
 
 n = 0
-while n < (t - 3) do
+while n < (t - 3) do # doは省略可能
     d = a + b + c
     a = b
     b = c
