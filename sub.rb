@@ -9,9 +9,9 @@
 
 # 入力された文字列で「, maybe.」があれば「!!」に変換
 
- lines = gets.chomp
-if lines.include?(", maybe.")
-    puts lines.gsub(/, maybe./, '!!')
+lines = gets.chomp
+if lines.include?(", maybe.") # 文章に「, maybe.」が含まれていれば
+    puts lines.gsub(/, maybe./, '!!') # 「, maybe.」を「!!」に変換して返す
 else
     puts lines
 end
